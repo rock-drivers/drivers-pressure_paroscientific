@@ -1,16 +1,11 @@
 <package>
-  <description brief="Driver for Paroscientific Pressure Sensor">
-  
+  <description brief="Driver for Paroscientific Pressure Sensors">
+  This package contains a driver for Paroscientific Pressure Sensors. In first stage it only parses the ASCII output. No further interaction is implemented.
   </description>
   <author>Hauke Büttner/hbuettner@marum.de</author>
   <license></license>
-  <url>http://</url>
-  <logo>http://</logo>
-  <!--
-   To add any dependencies use the depend tag
-  <depend package="dummy-dependency-0" />
-	...
-  <depend package="dummy-dependency-n-1" />
-  <depend package="dummy-dependency-n" />
-  -->
+  <url>http://www.marum.de</url>
+  <logo>http://www.marum.de/img/logo/start_de.jpg/</logo>
+  <depend package="base/types" />
+  <depend package="drivers/iodrivers_base" />
 </package>
