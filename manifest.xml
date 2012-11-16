@@ -8,4 +8,5 @@
   <logo>http://www.marum.de/img/logo/start_de.jpg/</logo>
   <depend package="base/types" />
   <depend package="drivers/iodrivers_base" />
+  <tags>underwater</tags>
 </package>
