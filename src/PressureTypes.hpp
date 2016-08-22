@@ -8,7 +8,7 @@
 #ifndef PRESSURE_PAROSCIENTIFIC_TYPES_HPP
 #define PRESSURE_PAROSCIENTIFIC_TYPES_HPP
 
-#include <base/time.h>
+#include <base/Time.hpp>
 
 namespace pressure_paroscientific {
     // namespace pressure_paroscientific
