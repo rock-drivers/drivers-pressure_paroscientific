@@ -12,6 +12,7 @@
 #include <boost/algorithm/string/split.hpp>
 #include <boost/algorithm/string/classification.hpp>
 #include <boost/lexical_cast.hpp>
+#include <iomanip>
 
 #include "Driver.hpp"
 
@@ -122,6 +123,7 @@ int Driver::extractPacket(const uint8_t *buffer, size_t buffer_size) const
 					return -pos_pack_start;
 				}
 			}
+                        return 0;
 		}
 
 	}//buffer_size <= 0
